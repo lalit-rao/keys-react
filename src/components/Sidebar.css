@@ -8,7 +8,7 @@ a.color-non-deficit {
     text-decoration: none;
     color: #000;
     font-family: Inter, serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
 }
@@ -17,7 +17,7 @@ a.color-deficit {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.65);
     font-family: Inter, serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

@@ -6,18 +6,17 @@ import './App.css';
 const App = () => {
     return (
         <>
-            <section className="Layout">
-                <Layout />
-            </section>
-            <section className="Sidebar">
-                <Sidebar />
-            </section>
-            <section className="Navbar">
-                <Navbar />
-            </section>
-
-
-
+            <div className="main-page">
+                <section className="Navbar">
+                    <Navbar />
+                </section>
+                 <section className="Sidebar">
+                    <Sidebar />
+                    </section>
+                 <section className="Layout">
+                    <Layout />
+                </section>
+            </div>
         </>
     );
 };

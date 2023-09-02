@@ -24,8 +24,8 @@ header {
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
-    max-width: 82%;
-    margin-left: auto;
+    /*max-width: 82%;*/
+    /*margin-left: auto;*/
     justify-content: space-between;
 }
 header > h1 {
