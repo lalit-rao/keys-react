@@ -97,7 +97,7 @@
 }
 
 .small-box-layout-rectangle-2 {
-    height: 130px;
+    height: 110px;
     width: auto;
     display: flex;
     align-items: center;
@@ -124,6 +124,7 @@
     align-items: center;
     display: flex;
     text-align: center;
+    margin-left: 2rem;
 }
 
 .small-box-layout-rectangle-text-3 {
