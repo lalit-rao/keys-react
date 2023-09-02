@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&display=swap');
+
+.main-sidebar {
+    padding: 30px;
+}
+
+a.color-non-deficit {
+    text-decoration: none;
+    color: #000;
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+a.color-deficit {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.65);
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bar-box {
+    width: auto;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.special-box {
+    width: auto;
+    height: 35px;
+    flex-shrink: 0;
+    background: rgba(227, 225, 225, 0);
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.special-box:hover {
+    background: rgba(227, 225, 225, 0.86);
+    transition: 350ms ease-in;
+}
+
+.special-box:active {
+    background: rgba(227, 225, 225, 0.86);
+}
+
+a.color-deficit:hover {
+    color: #000;
+    transition: 250ms ease-in;
+}
