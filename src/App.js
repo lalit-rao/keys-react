@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
-import Layout from './components/Layout-1';
+import Layout from './components/Layout';
 import './App.css';
 
 const App = () => {
