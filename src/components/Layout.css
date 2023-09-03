@@ -138,3 +138,45 @@
 .box-layout {
     border-top: black 1px solid;
 }
+
+/*Search box*/
+
+.search-box-content-rectangle {
+    display: grid;
+    height: 440px;
+    width: auto;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-gap: 10px;
+}
+
+.search-box-rectangle {
+    height: 45px;
+    width: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    border-radius: 35px;
+    background: #fcfcfc;
+    box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+.search-box-rectangle-text {
+    font-family: Inter, serif;
+    font-size: 0.9rem;
+}
+
+.content-box-rectangle {
+    border-radius: 20px;
+    background: #fcfcfc;
+    box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.25);
+    width: 385px;
+    height: 417px;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
